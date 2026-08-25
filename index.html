@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wisata Bersejarah Jogja</title>
+</head>
+<body>
+
+    <!-- Header Website -->
+    <header>
+        <h1>Wisata Jogja</h1>
+      <button class="theme-btn" onclick="gantiTema('dark-mode')">🌙 / ☀️ Ubah Mode</button>
+        <hr>
+    </header>
+
+    <!-- Judul Utama dan Penjelasan -->
+    <main>
+        <h2>WELCOME TO JOGJA! Destinasi wisata bersejarah di indonesia!</h2>
+        <p>Selamat datang! Website ini bertujuan untuk mengenalkan kamu terhadap destinasi wisata bersejarah yang sangat terkenal di Yogyakarta. Yuk, jelajahi keindahan dan sejarahnya!</p>
+
+        <hr>
+
+        <!-- Bagian Candi Borobudur -->
+       <div class="history-box">
+      <h3>Candi Borobudur</h3>
+        <p>Candi Borobudur adalah candi Buddha terbesar di dunia yang dibangun pada abad ke-9. Tempat ini terkenal dengan arsitekturnya yang megah serta relief sejarah yang sangat indah.</p>
+        <img src="gambarb/borobudur.jpg" alt="Foto Candi Borobudur" width="300">
+        <br>
+        <a href="borobudur.html">Ketahui lebih lanjut</a>
+       </div>
+
+        <hr>
+
+        <!-- Bagian Candi Prambanan -->
+         <div class="history-box">
+        <h3>Candi Prambanan</h3>
+        <p>Candi Prambanan merupakan kompleks candi Hindu terbesar di Indonesia yang dipersembahkan untuk Trimurti. Candi ini memiliki relief kisah Ramayana yang sangat terkenal.</p>
+        <img src="gambarp/prambanan.jpg" alt="Foto Candi Prambanan" width="300">
+        <br>
+        <a href="prambanan.html">Ketahui lebih lanjut</a>
+         </div>
+        <hr>
+
+        <!-- Bagian Jalan Malioboro -->
+           <div class="history-box">
+      <h3>Jalan Malioboro</h3>
+        <p>Jalan Malioboro adalah pusat keramaian dan ikon belanja di Yogyakarta. Kawasan ini sarat akan sejarah perkembangan Kota Jogja dan cocok untuk menikmati suasana malam hari.</p>
+        <img src="gambarm/malioboro.jpg" alt="Foto Jalan Malioboro" width="300">
+        <br>
+        <a href="malioboro.html">Ketahui lebih lanjut</a>
+          </div>
+    </main>
+
+    <hr>
+  <h2>Ringkasan Destinasi Wisata</h2>
+  
+<table border="1">
+    <tr>
+        <th>Nama Wisata</th>
+        <th>Jenis Wisata</th>
+        <th>Jam Operasional</th>
+        <th>Estimasi Tiket Masuk</th>
+    </tr>
+    <tr>
+        <td>Candi Borobudur</td>
+        <td>Candi Buddha</td>
+        <td>06.30 - 16.30 WIB</td>
+        <td>Rp 50.000 (Lokal)</td>
+    </tr>
+    <tr>
+        <td>Candi Prambanan</td>
+        <td>Candi Hindu</td>
+        <td>06.30 - 17.00 WIB</td>
+        <td>Rp 50.000 (Lokal)</td>
+    </tr>
+    <tr>
+        <td>Jalan Malioboro</td>
+        <td>Area Pedestrian / Kuno</td>
+        <td>24 Jam</td>
+        <td>Gratis</td>
+    </tr>
+</table>
+
+
+    <!-- Bagian Form Ulasan -->
+    <section>
+        <h2>Ulasan & Masukan</h2>
+        <p>Apakah website ini berguna untukmu? Berikan ulasanmu mengenai website ini untuk perkembangan lebih lanjut!</p>
+
+        <form action="#" method="post">
+            <!-- Input Email -->
+            <label for="email">Email Kamu:</label><br>
+            <input type="email" id="email" name="email" placeholder="contoh@email.com" required>
+            <br><br>
+
+            <!-- Input Ulasan -->
+            <label for="ulasan">Ulasan / Pesan:</label><br>
+            <textarea id="ulasan" name="ulasan" rows="4" cols="40" placeholder="Tulis ulasanmu di sini..." required></textarea>
+            <br><br>
+
+            <!-- Tombol Kirim -->
+            <input type="submit" value="Kirim Ulasan">
+        </form>
+    </section>
+
+    <!-- Footer Website -->
+    <hr>
+    <footer>
+        <p>Website oleh Lana Kartika Putri XII.2</p>
+    </footer>
+<!-- Script Efek Sinar Kursor -->
+    <script>
+        const light = document.createElement('div');
+        light.classList.add('cursor-light');
+        document.body.appendChild(light);
+
+        document.addEventListener('mousemove', (e) => {
+            light.style.left = e.clientX + 'px';
+            light.style.top = e.clientY + 'px';
+        });
+    </script>
+</body>
+</html>
+
+

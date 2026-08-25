@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jalan Malioboro - Wisata Bersejarah Jogja</title>
+</head>
+<body>
+
+    <!-- Header Website -->
+    <header>
+        <h1>Jalan Malioboro</h1>
+      <button class="theme-btn" onclick="gantiTema('dark-mode')">🌙 / ☀️ Ubah Mode</button>
+        <a href="index.html">&larr; Kembali ke Halaman Utama</a>
+        <hr>
+    </header>
+
+    <main>
+        <!-- Bagian 1: Sejarah -->
+        <h2>Sejarah Jalan Malioboro</h2>
+      <img src="gambarm/m1.jpg" alt="Foto Candi Borobudur" width="300">
+        <p>Jalan Malioboro dibangun bersamaan dengan berdirinya Keraton Ngayogyakarta Hadiningrat pada tahun 1755 oleh Sri Sultan Hamengku Buwono I.</p>
+
+      <div class="history-box">
+        <h3>Awal Mula dan Fungsi Filosofis (Abad ke-18)</h3>
+        <p>Secara filosofis, Malioboro dirancang sebagai bagian dari Sumbu Filosofis Yogyakarta—garis imajiner yang menghubungkan Gunung Merapi, Tugu Yogyakarta, Keraton, hingga Laut Selatan.</p>
+        <ul>
+            <li><strong>Arti Nama:</strong> Nama "Malioboro" diyakini berasal dari bahasa Sanskerta <em>Malyabhara</em> yang berarti "berhiaskan karangan bunga". Teori lain menyebutkan nama ini terinspirasi dari gelar Duke of Marlborough.</li>
+            <li><strong>Fungsi Awal:</strong> Jalan ini digunakan sebagai rute prosesi keprajuritan dan penyambutan tamu kehormatan Keraton.</li>
+        </ul>
+      </div>
+      <div class="history-box">
+        <h3>Perkembangan Menjadi Pusat Ekonomi (Abad ke-19 hingga 20)</h3>
+        <p>Pemerintah kolonial Belanda mulai membangun kawasan ini untuk mengimbangi pengaruh Keraton pada abad ke-19:</p>
+        <ul>
+            <li><strong>Pembangunan Benteng Vredeburg (1760) &amp; Gedung Agung (1824):</strong> Menjadikan kawasan ini sebagai pusat pemerintahan kolonial.</li>
+            <li><strong>Pertumbuhan Permukiman &amp; Perdagangan:</strong> Etnis Tionghoa mulai menetap di kawasan Kranggan dan Ketandan, melahirkan aktivitas perdagangan di Pasar Gede (kini Pasar Beringharjo) yang bertransformasi menjadi pusat ekonomi lokal.</li>
+        </ul>
+     </div>
+
+      <div class="history-box">
+        <h3>Faktor Utama Ketenaran Malioboro Saat Ini</h3>
+        <ul>
+            <li><strong>Pusat Kebudayaan &amp; Ruang Komunitas:</strong> Pada era 1970-an, Malioboro menjadi tempat berkumpulnya seniman, penyair, dan budayawan ternama (seperti Malioboro Seniman/Persatuan Seniman Jogja), menjadikannya simbol kebebasan berekspresi seni.</li>
+            <li><strong>Ikon Pariwisata dan Kuliner:</strong> Kehadiran musisi jalanan, kuliner khas lesehan gudeg, hingga cinderamata toko batik menjadikan Malioboro tujuan wajib wisatawan yang berkunjung ke Yogyakarta.</li>
+            <li><strong>Revitalisasi Pedestrian Ramah Pejalan Kaki:</strong> Penataan kawasan dalam beberapa tahun terakhir—seperti penataan PKL ke Teras Malioboro dan pelebaran trotoar dengan bangku-bangku ikonik—membuat jalurnya semakin nyaman, estetis, dan modern tanpa menghilangkan identitas sejarahnya.</li>
+        </ul>
+      </div>
+        <hr>
+
+        <!-- Bagian 2: Lokasi -->
+      <div class="history-box">
+        <h3>Lokasi Jalan Malioboro</h3>
+        <p>Jalan Malioboro terletak di pusat Kota Yogyakarta, Daerah Istimewa Yogyakarta.</p>
+        <p>
+            <a href="https://www.google.com/maps/search/?api=1&query=Jalan+Malioboro+Yogyakarta" target="_blank">Lihat Lokasi di Google Maps</a>
+        </p>
+              </div>
+
+<!-- Bagian Galeri Foto -->
+<div class="history-box">
+    <h3>Galeri Foto</h3>
+    <div class="gallery-grid">
+        <img src="gambarm/m2.jpg" alt="Foto 1">
+        <img src="gambarm/m3.jpg" alt="Foto 2">
+        <img src="gambarm/m4.jpg" alt="Foto 3">
+        <img src="gambarm/m5.jpg" alt="Foto 4">
+        <img src="gambarm/m6.jpg" alt="Foto 5">
+        <img src="gambarm/m7.jpg" alt="Foto 6">
+    </div>
+</div>
+      
+    </main>
+
+    <!-- Footer Website -->
+    <hr>
+    <footer>
+        <p>Website oleh Lana Kartika Putri XII.2</p>
+    </footer>
+<!-- Script Efek Sinar Kursor -->
+    <script>
+        const light = document.createElement('div');
+        light.classList.add('cursor-light');
+        document.body.appendChild(light);
+
+        document.addEventListener('mousemove', (e) => {
+            light.style.left = e.clientX + 'px';
+            light.style.top = e.clientY + 'px';
+        });
+    </script>
+</body>
+</html>

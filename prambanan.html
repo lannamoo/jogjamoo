@@ -1,0 +1,117 @@
+=<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Candi Prambanan - Wisata Bersejarah Jogja</title>
+</head>
+<body>
+
+    <!-- Header Website -->
+    <header>
+        <h1>Candi Prambanan</h1>
+      <button class="theme-btn" onclick="gantiTema('dark-mode')">🌙 / ☀️ Ubah Mode</button>
+        <a href="index.html">&larr; Kembali ke Halaman Utama</a>
+        <hr>
+    </header>
+
+    <main>
+        <!-- Bagian 1: Sejarah -->
+        <h2>Sejarah Candi Prambanan</h2>
+      <img src="gambarp/p1.jpg" alt="Foto Candi Borobudur" width="300">
+        <p>Candi Prambanan mulai dibangun sekitar pertengahan abad ke-9 Masehi, tepatnya pada masa pemerintahan Rakai Pikatan dari Kerajaan Mataram Kuno (Kerajaan Medang).</p>
+
+      <div class="history-box">
+        <h3>Asal-usul dan Latar Belakang Pembuatan</h3>
+        <ul>
+            <li><strong>Simbol Kejayaan Hindu:</strong> Pembangunan candi ini diprakarsai oleh Rakai Pikatan untuk menandai kejayaan Dinasti Sanjaya (pemeluk Hindu Siwa) sekaligus menegaskan kembalinya pusat kekuasaan politik Hindu di Jawa Tengah.</li>
+            <li><strong>Tandingan Candi Borobudur:</strong> Pembuatannya juga dirancang untuk menandingi kemegahan Candi Borobudur dan Candi Sewu yang dibangun oleh Dinasti Syailendra (pemeluk Buddha).</li>
+            <li><strong>Persembahan untuk Trimurti:</strong> Secara keagamaan, candi ini dinamai Siwagrha (Rumah Siwa) dan ditujukan untuk menghormati tiga dewa utama dalam ajaran Hindu (Trimurti), yaitu Dewa Siwa (Pencabut/Pemusnah), Dewa Brahma (Pencipta), dan Dewa Wisnu (Pemelihara), dengan Dewa Siwa sebagai dewa utamanya.</li>
+        </ul>
+    </div>
+      <div class="history-box">
+        <h3>Pengembangan dan Prasasti Siwagrha</h3>
+        <p>Berdasarkan Prasasti Siwagrha yang berangka tahun 778 Saka (856 Masehi), kompleks candi ini tidak hanya dibangun oleh Rakai Pikatan saja, tetapi terus diperluas dan disempurnakan oleh raja-raja penerusnya, seperti Raja Lokapala dan Raja Balitung.</p>
+        <p>Selain sebagai tempat ibadah keagamaan, Candi Prambanan pada masa itu berfungsi sebagai tempat penyelenggaraan upacara-upacara kerajaan dan pusat aktivitas spiritual Kerajaan Mataram Kuno. Pemanfaatan kompleks candi ini berlangsung hingga pusat pemerintahan Mataram Kuno dipindahkan ke Jawa Timur oleh Mpu Sindok pada abad ke-10 akibat letusan Gunung Merapi dan gejolak politik.</p>
+      </div>
+        <hr>
+    
+
+
+        <!-- Bagian 2: Lokasi -->
+      <div class="history-box">
+        <h3>Lokasi Candi Prambanan</h3>
+        <p>Candi Prambanan terletak di Kranggan, Bokoharjo, Kecamatan Prambanan, Kabupaten Sleman, Daerah Istimewa Yogyakarta.</p>
+        <p>
+  
+            <a href="https://www.google.com/maps/search/?api=1&query=Candi+Prambanan" target="_blank">Lihat Lokasi di Google Maps</a>
+        </p>
+     </div>
+        <hr>
+
+        <!-- Bagian 3: Pembelian Tiket Official -->
+     <div class="history-box"> 
+        <h3>Pemesanan Tiket Official</h3>
+        <p>Tertarik untuk berkunjung langsung? Kamu bisa memesan tiket resmi melalui link di bawah ini:</p>
+        <p>
+            <a href="https://injourneydestination.id/destinations/prambanan/" target="_blank">Pesan Tiket Resmi di InJourney Destination</a>
+        </p>
+     </div>
+       
+      <h2>Informasi Kunjungan</h2>
+<table border="1">
+    <tr>
+        <th>Kategori</th>
+        <th>Keterangan</th>
+    </tr>
+    <tr>
+        <td>Jam Buka Pelataran</td>
+        <td>06.30 – 17.00 WIB</td>
+    </tr>
+    <tr>
+        <td>Hari Operasional</td>
+        <td>Selasa - Minggu (Senin Tutup/Pemeliharaan)</td>
+    </tr>
+    <tr>
+        <td>Fasilitas Tersedia</td>
+        <td>Area Parkir, Pemandu Wisata, Toilet, Mushola, Toko Souvenir</td>
+    </tr>
+</table>
+
+<!-- Bagian Galeri Foto -->
+<div class="history-box">
+    <h3>Galeri Foto</h3>
+    <div class="gallery-grid">
+        <img src="gambarp/p2.jpg" alt="Foto 1">
+        <img src="gambarp/p3.jpg" alt="Foto 2">
+        <img src="gambarp/p4.jpg" alt="Foto 3">
+        <img src="gambarp/p5.jpg" alt="Foto 4">
+        <img src="gambarp/p6.jpg" alt="Foto 5">
+        <img src="gambarp/p7.jpg" alt="Foto 6">
+    </div>
+</div>
+      
+      
+    </main>
+
+    <!-- Footer Website -->
+    <hr>
+    <footer>
+        <p>Website oleh Lana Kartika Putri XII.2</p>
+    </footer>
+<!-- Script Efek Sinar Kursor -->
+    <script>
+        const light = document.createElement('div');
+        light.classList.add('cursor-light');
+        document.body.appendChild(light);
+
+        document.addEventListener('mousemove', (e) => {
+            light.style.left = e.clientX + 'px';
+            light.style.top = e.clientY + 'px';
+        });
+    </script>
+</body>
+</html>
